@@ -9,13 +9,8 @@ This project consolidates financial, fundamental, and analyst recommendation dat
   - `fundamental.csv`: Includes company-level fundamental financial metrics.
   - `fundamental_global.csv`: Global version of the fundamental dataset.
   - `russel_1000_growth.csv`: Russell 1000 growth index dataset.
-  - `final_merged_data.csv`: The final processed dataset combining all sources.
-  - `missing_ticker.txt`: Log of missing tickers during the merging process.
-  - `promo.txt`: Placeholder or additional metadata.
-
+  - 
 - **data_builder.ipynb**: The main Jupyter Notebook used for data processing and merging.
-
-- **README.md**: This document, describing the project and its components.
 
 ## CSV Columns in `final_merged_data.csv`
 The final dataset includes the following columns:
@@ -64,6 +59,7 @@ The final dataset includes the following columns:
 - **Buy Percentage**: Percentage of buy recommendations.
 - **Sell Percentage**: Percentage of sell recommendations.
 - **Hold Percentage**: Percentage of hold recommendations.
+- **Rating**: SP Quality Index.
 
 ## Usage
 The dataset can be used for:
